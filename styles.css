@@ -266,7 +266,7 @@ h4 { font-size: 1.1rem; }
   display: flex;
   align-items: center;
   background: linear-gradient(rgba(26,46,34,0.7), rgba(26,46,34,0.8)),
-              url('gemini-2.5-flash-image_corporate_mockup_on_a_building_sign_no_text-0.jpg') center 40%/cover no-repeat;
+              url('Mockup2.jpg') center 40%/cover no-repeat;
   overflow: hidden;
 }
 
@@ -1316,7 +1316,7 @@ h4 { font-size: 1.1rem; }
 /* Photo hero variant */
 .about-hero-photo {
   background: linear-gradient(rgba(26,46,34,0.72), rgba(26,46,34,0.82)),
-              url('gemini-2.5-flash-image_corporate_mockup_on_a_building_sign_no_text-0.jpg') center 40%/cover no-repeat;
+              url('Mockup2.jpg') center 40%/cover no-repeat;
   border-bottom: none;
 }
 
@@ -1335,7 +1335,7 @@ h4 { font-size: 1.1rem; }
 /* Contact page hero — uses building mockup */
 .contact-hero-photo {
   background: linear-gradient(rgba(26,46,34,0.72), rgba(26,46,34,0.82)),
-              url('gemini-2.5-flash-image_corporate_mockup_on_a_building_sign_no_text-0.jpg') center 40%/cover no-repeat;
+              url('Mockup2.jpg') center 40%/cover no-repeat;
 }
 
 .contact-hero-photo h1 { color: var(--white); }
