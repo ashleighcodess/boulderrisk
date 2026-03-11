@@ -358,25 +358,21 @@ h4 { font-size: 1.1rem; }
   padding-top: 76px;
 }
 
-/* Green shadow logo — sits behind */
+/* Hero logo — white inverted mark */
 .hero-logo-shadow {
-  position: absolute;
+  position: relative;
   width: 320px;
   height: auto;
   opacity: 0;
-  transform: scale(0.85) translate(8px, 8px);
-  animation: shadowReveal 1s cubic-bezier(0.16, 1, 0.3, 1) 0.35s forwards;
-  filter: brightness(0.6) sepia(1) hue-rotate(90deg) saturate(2);
+  transform: scale(0.85);
+  animation: logoReveal 1s cubic-bezier(0.16, 1, 0.3, 1) 0.4s forwards;
+  filter: brightness(0) invert(1) drop-shadow(0 20px 60px rgba(0,0,0,0.3));
 }
 
 .hero-logo-shadow.revealed {
-  opacity: 0.35;
-  transform: translate(8px, 8px);
-  filter: brightness(0.6) sepia(1) hue-rotate(90deg) saturate(2);
-}
-
-@keyframes shadowReveal {
-  to { opacity: 0.35; transform: scale(1) translate(8px, 8px); }
+  opacity: 1;
+  transform: none;
+  filter: brightness(0) invert(1) drop-shadow(0 20px 60px rgba(0,0,0,0.3));
 }
 
 @keyframes shadowSway {
