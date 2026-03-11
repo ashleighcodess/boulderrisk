@@ -136,7 +136,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { once: true });
   }
 
-  /* --- Parallax on hero brand mark --- */
+  /* --- Parallax on hero brand mark — disabled --- */
+  /*
   const heroBrand = document.querySelector('.hero-brand');
   if (heroBrand && !prefersReduced) {
     window.addEventListener('scroll', () => {
@@ -147,6 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }, { passive: true });
   }
+  */
 
   /* --- About page stat counters --- */
   const statNums = document.querySelectorAll('.about-stat-num[data-target]');

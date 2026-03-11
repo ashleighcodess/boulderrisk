@@ -372,7 +372,6 @@ h4 { font-size: 1.1rem; }
 .hero-logo-shadow.revealed {
   opacity: 0.35;
   transform: translate(8px, 8px);
-  animation: shadowSway 6s ease-in-out infinite;
   filter: brightness(0.6) sepia(1) hue-rotate(90deg) saturate(2);
 }
 
@@ -403,11 +402,10 @@ h4 { font-size: 1.1rem; }
   }
 }
 
-/* Gentle continuous sway — after reveal */
+/* After reveal — static */
 .hero-logo-mark.revealed {
   opacity: 1;
   transform: none;
-  animation: sway 6s ease-in-out infinite;
   filter: brightness(0) invert(1) drop-shadow(0 20px 60px rgba(0,0,0,0.3));
 }
 
