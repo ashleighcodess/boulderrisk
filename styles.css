@@ -1408,7 +1408,7 @@ h4 { font-size: 1.1rem; }
   font-weight: 500;
   color: var(--dark);
   line-height: 1.5;
-  max-width: 800px;
+  max-width: 1000px;
   position: relative;
   padding-left: 48px;
 }
