@@ -78,6 +78,51 @@ h4 { font-size: 1.1rem; }
   width: 56px;
 }
 
+/* --- Industry Ribbon --- */
+.industry-ribbon {
+  background: var(--dark);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  padding: 14px 0;
+}
+
+.industry-ribbon-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.82);
+}
+
+.industry-ribbon-list li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.industry-ribbon-list li + li::before {
+  content: '';
+  position: absolute;
+  left: -16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--green-light);
+  opacity: 0.75;
+}
+
+@media (max-width: 720px) {
+  .industry-ribbon { padding: 10px 0; }
+  .industry-ribbon-list { gap: 18px; font-size: 0.7rem; letter-spacing: 1.5px; }
+  .industry-ribbon-list li + li::before { left: -11px; }
+}
+
 /* --- Buttons --- */
 .btn {
   display: inline-block;
