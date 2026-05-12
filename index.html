@@ -10,6 +10,43 @@
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="icon" href="Logo.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "InsuranceAgency",
+    "name": "Boulder Risk Associates, Inc.",
+    "url": "https://boulderrisk.com",
+    "logo": "https://boulderrisk.com/Logo.png",
+    "image": "https://boulderrisk.com/Logo.png",
+    "telephone": "+1-908-450-5778",
+    "email": "info@BoulderRisk.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "50 Division St., Suite 501",
+      "addressLocality": "Somerville",
+      "addressRegion": "NJ",
+      "postalCode": "08876",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      { "@type": "State", "name": "New Jersey" },
+      { "@type": "State", "name": "New York" },
+      { "@type": "State", "name": "Florida" },
+      { "@type": "State", "name": "Georgia" },
+      { "@type": "State", "name": "Virginia" },
+      { "@type": "State", "name": "Ohio" },
+      { "@type": "State", "name": "Texas" },
+      { "@type": "State", "name": "California" },
+      { "@type": "State", "name": "North Carolina" }
+    ],
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    }]
+  }
+  </script>
 </head>
 <body>
 
@@ -163,11 +200,22 @@
             <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
             info@BoulderRisk.com
           </div>
-          <div class="footer-contact-item">
+          <div class="footer-contact-item footer-contact-address">
             <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            Bridgewater, NJ
+            <span>50 Division St., Suite 501<br>Somerville, NJ 08876</span>
+          </div>
+          <div class="footer-map">
+            <iframe
+              src="https://www.google.com/maps?q=50+Division+St+Suite+501+Somerville+NJ+08876&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Boulder Risk Associates office location"
+              allowfullscreen></iframe>
           </div>
         </div>
+      </div>
+      <div class="footer-licensed">
+        <strong>Licensed in:</strong> NJ, NY, FL, GA, VA, OH, TX, CA, NC
       </div>
       <div class="footer-bottom">
         <span>&copy; 2026 Boulder Risk Associates, Inc. All rights reserved.</span>
